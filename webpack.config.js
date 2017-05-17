@@ -10,7 +10,6 @@ var libraryName = 'es6-webpack-boilerplate',
     sourceEntryPoint = './src/index.js';
 
 var plugins = [new BrowserSyncPlugin({
-
     host: 'localhost',
     port: 3000,
     server: { baseDir: ['dist'] }
