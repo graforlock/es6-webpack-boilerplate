@@ -4,7 +4,7 @@ var webpack = require('webpack');
     UglifyJsPlugin = webpack.optimize.UglifyJsPlugin,
     BrowserSyncPlugin = require('browser-sync-webpack-plugin');
 
-var libraryName = 'thru',
+var libraryName = 'es6-webpack-boilerplate',
     sourceDir = './src',
     distDir = './dist',
     sourceEntryPoint = './src/index.js';

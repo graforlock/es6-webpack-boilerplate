@@ -1,6 +1,8 @@
 import test from 'tape';
 
-test(`true is true`, expect => {
+import * as index from '../src';
+
+test(`module import`, expect => {
     expect.plan(1);
 
     expect.ok(true);

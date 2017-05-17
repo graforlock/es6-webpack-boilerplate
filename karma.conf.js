@@ -20,7 +20,7 @@ module.exports = function (config) {
             module: {
                 loaders: [
                     {
-                        test: /\.js/,
+                        test: /\.spec.js/,
                         exclude: /node_modules/,
                         loader: 'babel-loader',
                         query: {

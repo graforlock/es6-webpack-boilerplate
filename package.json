@@ -8,7 +8,6 @@
     "isomorphic-fetch": "^2.2.1"
   },
   "devDependencies": {
-    "axios": "^0.15.3",
     "babel-core": "^6.22.1",
     "babel-loader": "^6.2.10",
     "babel-polyfill": "^6.22.0",
@@ -30,12 +29,13 @@
     "yargs": "^6.6.0"
   },
   "scripts": {
+    "start": "node_modules/.bin/webpack --watch",
     "build": "node_modules/.bin/webpack",
     "test": "node_modules/.bin/karma start karma.conf.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/graforlock/middlestone.git"
+    "url": "git+https://github.com/graforlock/es6-webpack-boilerplate.git"
   },
   "keywords": [],
   "author": "Maciej Sitko",
